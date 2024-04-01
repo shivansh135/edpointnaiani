@@ -81,10 +81,10 @@ export const Home = ()=>{
          <div className="selfCard">
             <h2>Offline Courses</h2>
             <div className="flex-scroll">
-                <BasicCardButton img={'/sample.jpg'} title={'Prayas Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
-                <BasicCardButton img={'/sample.jpg'} title={'Ramanujan Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
-                <BasicCardButton img={'/sample.jpg'} title={'Eklavya Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
-                <BasicCardButton img={'/sample.jpg'} title={'Arjuna Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCardButton img={'/physics.webp'} title={'Prayas Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCardButton img={'/class.webp'} title={'Ramanujan Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCardButton img={'/physics.webp'} title={'Eklavya Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCardButton img={'/class.webp'} title={'Arjuna Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
             </div>
          </div>
 
@@ -111,8 +111,8 @@ export const Home = ()=>{
          <div className="selfCard">
             <h2>Online Courses</h2>
             <div className="flex-scroll">
-                <BasicCard img={'/sample.jpg'} title={'Eklavya Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
-                <BasicCard img={'/sample.jpg'} title={'Arjuna Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCard img={'/physics.webp'} title={'Eklavya Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
+                <BasicCard img={'/class.webp'} title={'Arjuna Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
             </div>
          </div>
 
