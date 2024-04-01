@@ -1,0 +1,131 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    padding-top: 20px;
+}
+
+h2,h4{
+    color: #fff;
+}
+.crau{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    box-shadow: 0 0 9px -3px black;
+}
+
+.selfCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.flex-scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(0, 132, 255);
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+}
+
+.styleFlexParent{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cont4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.bigBox{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(0, 132, 255);
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.smallBox{
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(0, 132, 255);
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.recBox{
+    height: 90px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: rgb(0, 132, 255);
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .body{
+        gap: 60px;
+        padding-top: 0px;
+    }
+    .styleFlexParent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bigBox{
+        width: 100%;
+    }
+    .crau{
+        border-radius: 0px;
+        overflow: hidden;
+        width: calc(100%);
+        margin-left: -10px;
+        max-width: 1080px;
+        margin: auto;
+        box-shadow: 0 0 9px -3px black;
+        margin-bottom: -60px;
+    }
+    
+}
