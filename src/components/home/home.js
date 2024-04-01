@@ -53,8 +53,8 @@ export const Home = ()=>{
                 <BasicCard img={'/class.webp'} title={'Prayas Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
             </div>
          </div>
-
-         <div className="contCard">
+          <section id='offline'>
+          <div className="contCard">
          <div className="text-wrap" style={{"max-width":"450px"}}>
                 <h4>Our Remarkable Achievements</h4>
                 <div className="text">At Education Point, our achievements speak volumes. From top exam ranks to transformative success stories, we celebrate every milestone. Our students’ victories are our own, fueling our commitment to excellence.</div>
@@ -78,6 +78,8 @@ export const Home = ()=>{
             </div>
          </div>
 
+          </section>
+         
          <div className="selfCard">
             <h2>Offline Courses</h2>
             <div className="flex-scroll">
@@ -87,7 +89,9 @@ export const Home = ()=>{
                 <BasicCardButton img={'/class.webp'} title={'Arjuna Batch'} text={"Some quick example text to build on the card title and make up the bulk of the card's content."}/>
             </div>
          </div>
+          <section id="teachers">
 
+          </section>
          <div className="contCard">
          <div className="text-wrap" style={{"max-width":"450px"}}>
                 <h4>Guiding Stars: Our Inspirational Teachers</h4>
