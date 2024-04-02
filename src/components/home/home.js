@@ -67,7 +67,7 @@ export const Home = ()=>{
                     </div>
                     <div className="cont2">
                         <div className="recBox">200+ Notes</div>
-                        <div className="smallBox"> 100+ Videos</div>
+                        <div className="smallBox"> 1000+ <br/>Videos</div>
 
                     </div>
                 </div>

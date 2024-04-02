@@ -1,5 +1,14 @@
+.card{
+    transition: 0.23s;
+    cursor: pointer;
+}
+
+.card:hover{
+transform: scale(1.022);
+}
+
 .contCard{
-    background-color: #1B1A55;
+    background-color: #1b1a559a;
     width: 100%;
     padding: 30px;
     height: auto;

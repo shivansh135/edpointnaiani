@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import './card.css';
 export function BasicCard({img, title, text}) {
   return (
-    <Card style={{width: '18rem',backgroundColor:'#1B1A55',color:'#fff' }}>
+    <Card className='card' style={{width: '18rem',backgroundColor:'#1B1A55',color:'#fff' }}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
@@ -17,7 +17,7 @@ export function BasicCard({img, title, text}) {
 
 export function BasicCardButton({img, title, text}) {
     return (
-      <Card style={{ width: '18rem',backgroundColor:'#1B1A55',color:'#fff'}}>
+      <Card className='card' style={{ width: '18rem',backgroundColor:'#1B1A55',color:'#fff'}}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
